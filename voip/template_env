@@ -1,0 +1,25 @@
+# ── AWS Bedrock ────────────────────────────────────────────────────────────────
+AWS_REGION=eu-west-1
+AWS_BEDROCK_MODEL_ID=eu.anthropic.claude-sonnet-4-6
+AWS_BEARER_TOKEN_BEDROCK=
+
+# ── Twilio ─────────────────────────────────────────────────────────────────────
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+# SID of the phone number (starts with PN), NOT the E.164 number itself
+# Find it at: https://console.twilio.com/us1/develop/phone-numbers/manage/incoming
+TWILIO_PHONE_NUMBER_SID=
+
+# ── Tunnel (ngrok) ─────────────────────────────────────────────────────────────
+# Leave empty to auto-detect from ngrok API (http://localhost:4040).
+# Set manually if you're using a static ngrok domain or another tunnel:
+#   BASE_URL=https://your-static-domain.ngrok-free.app
+BASE_URL=
+
+# ── Email (SMTP) ───────────────────────────────────────────────────────────────
+# Gmail example: create an App Password at https://myaccount.google.com/apppasswords
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=...@gmail.com
+SMTP_PASSWORD=
+FROM_EMAIL=...@gmail.com
