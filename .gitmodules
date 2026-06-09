@@ -1,0 +1,3 @@
+[submodule "skill"]
+	path = skill
+	url = https://github.com/detsutut/virtual-cod-plugin
